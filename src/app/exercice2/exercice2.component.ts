@@ -9,6 +9,10 @@ export class Exercice2Component implements OnInit {
 
   constructor() { }
 
+  public eventClick(): void {
+    console.log('click');
+  }
+
   ngOnInit() {
   }
 
